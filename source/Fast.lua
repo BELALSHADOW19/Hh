@@ -2289,7 +2289,7 @@ keyboardd.inline_keyboard = {
 local msg_id = msg.id/2097152/0.5 
  https.request("https://api.telegram.org/bot"..Token..'/sendPhoto?chat_id='..msg.chat_id..'&caption='..URL.escape(DevJeka1)..'&photo='..photo.photos[1].sizes[#photo.photos[1].sizes].photo.remote.id..'&reply_to_message_id='..msg_id..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboardd))
 else
-local DevJeka1 = "*𓄼•᥉᥆υᖇᥴᥱ 𝗁᥆ᖇ᥉ᥱ HORSE*\n*𓄼•𝙽𝙰𝙼𝙴 HORSE ⇿ *"..ban.first_name.."\n*𓄼•𝙸𝙳 HORSE ⇿ "..UserId_Info.id.."*\n*𓄼•𝙱𝙸𝙾 HORSE ⇿*  *"..Bio.." *"
+local DevJeka1 = "*𓄼•᥉᥆υᖇᥴᥱ 𝗁᥆ᖇ᥉ᥱ HORSE*\n*𓄼•𝙽𝙰𝙼𝙴 𝐌𝐎𝐃𝐘 ⇿ *"..ban.first_name.."\n*𓄼•𝙸𝙳 𝐌𝐎𝐃𝐘 ⇿ "..UserId_Info.id.."*\n*𓄼•𝙱𝙸𝙾 𝐌𝐎𝐃𝐘 ⇿*  *"..Bio.." *"
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
