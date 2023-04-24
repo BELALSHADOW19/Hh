@@ -11149,19 +11149,19 @@ Redis:sadd(Fast..'Num:User:Pv',msg.sender_id.user_id)
 if not msg.Asasy then
 if not Redis:get(Fast.."Start:Bot") then
 local photo = bot.getUserProfilePhotos(Fast)
-local CmdStart = '*\n╗ أهلآ بك في بوت '..(Redis:get(Fast.."Name:Bot") or "فيجا")..
+local CmdStart = '*\n╗ أهلآ بك في بوت '..(Redis:get(Fast.."Name:Bot") or "سورس هورس")..
 '\n╣• اختصاص البوت حماية المجموعات'..
 '\n╣• لتفعيل البوت عليك اتباع مايلي ...'..
 '\n╣• اضف البوت الى مجموعتك'..
 '\n╣• ارفعه ادمن مشرف'..
 '\n╣• ارسل كلمة { تفعيل } ليتم تفعيل المجموعه'..
-'\n╣• ارسل كلمة { /vega} لاظهار الكيبورد'..
+'\n╣• ارسل كلمة { /horse} لاظهار الكيبورد'..
 '\n╝• مطور البوت -›«@'..UserSudo..'»*'
 local reply_markup = bot.replyMarkup{type = 'keyboard',resize = true,is_personal = true,
 type = 'inline',
 data = {
 {
-{text = '𝐀𝐃𝐃 𝐌𝐄💞', url = 't.me/'..UserBot..'?startgroup=new'}, 
+{text = 'اضفني في مجموعات', url = 't.me/'..UserBot..'?startgroup=new'}, 
 },
 {
 {text = '◜ ᥉᥆υᖇᥴᥱ 𝗁᥆ᖇ᥉ᥱ◞', url = 'https://t.me/SOURCE_HORSE'}, 
@@ -11174,7 +11174,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '𝐀𝐃𝐃 𝐌𝐄💞', url = 't.me/'..UserBot..'?startgroup=new'}, 
+{text = 'اضفني في مجموعات', url = 't.me/'..UserBot..'?startgroup=new'}, 
 },
 {
 {text = '◜ ᥉᥆υᖇᥴᥱ 𝗁᥆ᖇ᥉ᥱ◞', url = 'https://t.me/SOURCE_HORSE'}, 
